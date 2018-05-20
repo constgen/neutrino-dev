@@ -1,3 +1,9 @@
 [build]
   publish = "_book"
   command = "yarn docs:build"
+
+[[redirects]]
+  from = "https://neutrino.js.org/*"
+  to = "https://neutrinojs.org/:splat"
+  status = 302
+  force = true
